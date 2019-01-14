@@ -1,0 +1,17 @@
+﻿<Window x:Class="TheatreDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheatreDatabase"
+        mc:Ignorable="d"
+        Title="Login" Height="288" Width="617">
+    <Grid>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Height="23" Margin="190,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="LoginBtn" Content="Login" HorizontalAlignment="Left" Margin="190,174,0,0" VerticalAlignment="Top" Width="75" Click="OnClickLoginBtn"/>
+        <Label x:Name="Label1" Content="Username:" HorizontalAlignment="Left" Margin="97,65,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label2" Content="Password:" HorizontalAlignment="Left" Margin="97,110,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PassBox" HorizontalAlignment="Left" Height="23" Margin="190,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

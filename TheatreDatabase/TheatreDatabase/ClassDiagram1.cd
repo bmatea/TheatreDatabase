@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="TheatreDatabase.Accounts">
+    <Position X="6" Y="1" Width="1.5" />
+    <AssociationLine Name="Actions" Type="TheatreDatabase.Actions" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="2.077" />
+        <Point X="3.928" Y="2.077" />
+        <Point X="3.928" Y="2.84" />
+        <Point X="3" Y="2.84" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Accounts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Actions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TheatreDatabase.Actions">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="Play" Type="TheatreDatabase.Plays" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3" Y="3.5" />
+        <Point X="6" Y="3.523" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAIAAAAAAAAAAAAAAAAAAACAoAAAAQQAAAA=</HashCode>
+      <FileName>Actions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Play" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TheatreDatabase.Actors">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAQAAAAEAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Actors.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Plays" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TheatreDatabase.Auditoriums">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAI=</HashCode>
+      <FileName>Auditoriums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheatreDatabase.Plays">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAhEAAAAAAgAAAEAAAAAQAADAABAAAAAA=</HashCode>
+      <FileName>Plays.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Auditorium" />
+      <Property Name="State" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Actors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TheatreDatabase.SoldOut" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plays.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.231" />
+  </Class>
+  <Class Name="TheatreDatabase.Empty" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plays.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheatreDatabase.PartiallySoldOut" BaseTypeListCollapsed="true">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plays.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.654" />
+  </Class>
+  <Class Name="TheatreDatabase.Purchase">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Purchase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheatreDatabase.Reservation">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheatreDatabase.Users">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAgAAAEA=</HashCode>
+      <FileName>Users.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Account" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="TheatreDatabase.IPlayState">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plays.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
