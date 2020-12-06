@@ -16,3 +16,7 @@ IDE: Visual Studio 2017
 Programming language: C#
 ORM: Entity Framework 6.0
 GUI: WPF
+
+### Demo
+
+![GUI](wpf.png)
