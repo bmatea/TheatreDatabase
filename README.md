@@ -11,11 +11,11 @@ Changes made to the account balance and number of available seats are handled us
 
 ## Technologies 
 
-RDBMS: MS SQL Server
-IDE: Visual Studio 2017
-Programming language: C#
-ORM: Entity Framework 6.0
-GUI: WPF
+- RDBMS: MS SQL Server
+- IDE: Visual Studio 2017
+- Programming language: C#
+- ORM: Entity Framework 6.0
+- GUI: WPF
 
 ### Demo
 
